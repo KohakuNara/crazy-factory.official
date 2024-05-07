@@ -22,9 +22,29 @@ body{
 }
 
 .itemlist{
-    width: 100%;
-    height: calc(100% / 3);
+    width: 61%;
+    height: 100%;
+    margin: auto;
+}
+
+.itemlist ul{
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.itemlist li{
+    width: 400px;
+    list-style: none;
+    margin-bottom: 50px;
+    font-family: HiraKakuProN-W6, monospace;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border: solid 1px; */
+    margin: 0;
 }
 
 .itemlist-box{
@@ -36,8 +56,8 @@ body{
     width: 25%;
     height: 100%;
     /* background-color: aqua; */
-    border: solid 1px;
-    position: relative;
+    border-top: solid 1px;
+    border-right: solid 1px;
 }
 
 .item2{
@@ -45,7 +65,7 @@ body{
     height: 550px;
     background-color: aqua;
     border: solid 1px;
-    position: relative;
+    position: absolute;
 }
 
 .itemlist-img{
@@ -67,7 +87,7 @@ body{
 }
 
 .item-title{
-    width: 60%;
+    width: 90%;
     /* background-color: aqua; */
 }
 
