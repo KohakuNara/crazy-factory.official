@@ -22,30 +22,9 @@ body{
 }
 
 .itemlist{
-    width: 61%;
-    height: 100%;
-    margin: auto;
-}
-
-.itemlist ul{
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    height: calc(100% / 3);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.itemlist li{
-    width: 400px;
-    list-style: none;
-    margin-bottom: 50px;
-    font-family: HiraKakuProN-W6, monospace;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    padding-left: 15px;
-    padding-right: 15px;
-    /* border: solid 1px; */
-    margin: 0;
 }
 
 .itemlist-box{
@@ -56,9 +35,9 @@ body{
 .item{
     width: 25%;
     height: 100%;
-    /* background-color: aqua; */
-    border-top: solid 1px;
-    border-right: solid 1px;
+    background-color: aqua;
+    border: solid 1px;
+    position: relative;
 }
 
 .item2{
@@ -66,7 +45,7 @@ body{
     height: 550px;
     background-color: aqua;
     border: solid 1px;
-    position: absolute;
+    position: relative;
 }
 
 .itemlist-img{
